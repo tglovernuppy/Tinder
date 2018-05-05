@@ -6,14 +6,13 @@
 
 import React, { Component } from 'react';
 import {
-
   StyleSheet,
   Image,
   Text,
   TouchableOpacity,
-  Navigator,
   View
 } from 'react-native';
+import { Navigator } from 'react-native-deprecated-custom-components';
 
 import Home from './home';
 import Messages from './messages';
